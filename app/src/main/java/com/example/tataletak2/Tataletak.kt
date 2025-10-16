@@ -125,17 +125,17 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                     modifier = modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
-                    Text(text = "C1_R1_K1")
-                    Text(text = "C1_R1_K2")
-                    Text(text = "C1_R1_K3")
+                    Text(text = "C1_R1_K1", color = Color.White, fontWeight = FontWeight.Bold)
+                    Text(text = "C1_R1_K2", color = Color.White, fontWeight = FontWeight.Bold)
+                    Text(text = "C1_R1_K3", color = Color.White, fontWeight = FontWeight.Bold)
                 }
                 Row(
                     modifier = modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
-                    Text(text = "C1_R2_K1")
-                    Text(text = "C1_R2_K2")
-                    Text(text = "C1_R2_K3")
+                    Text(text = "C1_R2_K1", color = Color.White, fontWeight = FontWeight.Bold)
+                    Text(text = "C1_R2_K2", color = Color.White, fontWeight = FontWeight.Bold)
+                    Text(text = "C1_R2_K3", color = Color.White, fontWeight = FontWeight.Bold)
                 }
             }
         }
@@ -150,6 +150,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             Image(painter = gambar,
                 contentDescription = null,
                 contentScale = ContentScale.Fit)
+
             Text(text = "Programming Mumet",
                 fontSize = 40.sp,
                 color = Color.White,
