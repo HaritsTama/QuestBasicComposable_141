@@ -24,7 +24,7 @@ fun TataletakColumn(modifier: Modifier) {
 
 @Composable
 fun TataletakRow(modifier: Modifier) {
-    Row(modifier = modifier.fillMaxWidth(),
+    Row(modifier = modifier.fillMaxWidth().padding(top = 50.dp),
         horizontalArrangement = Arrangement.SpaceEvenly) {
         Text(text = "Komponen1")
         Text(text = "Komponen2")
@@ -32,4 +32,3 @@ fun TataletakRow(modifier: Modifier) {
         Text(text = "Komponen4")
     }
 }
-
