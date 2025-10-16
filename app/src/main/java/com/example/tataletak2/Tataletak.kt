@@ -144,14 +144,14 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             modifier = modifier
                 .fillMaxWidth()
                 .height(300.dp)
-                .background(color = Color.Cyan),
+                .background(color = Color.Black),
             contentAlignment = Alignment.Center
         ){
             Image(painter = gambar,
                 contentDescription = null,
                 contentScale = ContentScale.Fit)
             Text(text = "Programming Mumet",
-                fontSize = 70.sp,
+                fontSize = 40.sp,
                 color = Color.White,
                 fontWeight = FontWeight.Bold,
                 fontFamily = FontFamily.Cursive,
